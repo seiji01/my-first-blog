@@ -1,0 +1,119 @@
+20181120
+
+
+
+seiji@xbnt16:~/myproject$ git init
+Initialized empty Git repository in /home/seiji/myproject/.git/
+seiji@xbnt16:~/myproject$ git config --global user.name "seiji01"
+seiji@xbnt16:~/myproject$ git config --global user.email forest_65nrjncwpzyso@
+yahoo.co.jp
+
+
+
+
+
+ .gitignore
+===========================================================================
+.gitignoreの場所　treeには現れない。
+
+(myenv) seiji@xbnt16:~/myproject/mysite$ ls -a
+.  ..  .gitignore  git設定  manage.py  mysite
+
+
+
+
+.gitignoreファイルの中身
+----------------------------------------------
+*.pyc
+*~
+__pycache__
+myenv
+db.mysql
+/static
+.DS_Store
+
+
+
+
+(myenv) seiji@xbnt16:~/myproject/mysite$ tree
+.
+├── git設定
+├── manage.py
+└── mysite
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-36.pyc
+    │   ├── settings.cpython-36.pyc
+    │   ├── urls.cpython-36.pyc
+    │   └── wsgi.cpython-36.pyc
+    ├── settings.py
+    ├── urls.py
+    └── wsgi.py
+
+2 directories, 10 files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
